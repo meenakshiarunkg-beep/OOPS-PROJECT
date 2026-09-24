@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Voting System",
+            "request": "launch",
+            "mainClass": "com.voting.ui.MainApp",
+            "projectName": "VotingSystem"
+        }
+    ]
+}

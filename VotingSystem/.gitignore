@@ -1,0 +1,4 @@
+bin/
+*.class
+candidate_photos/*
+!candidate_photos/.gitkeep

@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "VotingSystem\\src"
+    ],
+    "java.project.referencedLibraries": [
+        "VotingSystem\\lib\\mysql-connector-j-26.7.0.jar"
+    ]
+}
