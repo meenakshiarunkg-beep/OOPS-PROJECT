@@ -119,12 +119,7 @@ public class LoginPanel extends JPanel {
         form.add(loginBtn);
 
         form.add(Box.createVerticalStrut(16));
-        JLabel hint = new JLabel("<html><center>Default admin: <b>admin</b> / <b>Admin@123</b><br>" +
-                "(change this after first login)</center></html>");
-        hint.setFont(UITheme.FONT_LABEL);
-        hint.setForeground(UITheme.TEXT_MUTED);
-        hint.setAlignmentX(CENTER_ALIGNMENT);
-        form.add(hint);
+        
 
         userField.addActionListener(e -> pwField.requestFocusInWindow());
         pwField.addActionListener(e -> loginBtn.doClick());
